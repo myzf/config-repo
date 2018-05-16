@@ -1,6 +1,9 @@
 spring:
   application:
     name: order
+  redis:
+    host: wx.myzf.xyz
+    password: Woainia123
   rabbitmq:
     host: wx.myzf.xyz
   datasource:
