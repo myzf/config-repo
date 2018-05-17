@@ -18,3 +18,10 @@ env:
 girl:
   age: 20
   name: li
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
