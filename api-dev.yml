@@ -1,3 +1,5 @@
 spring:
+  env:
+    test1
   rabbitmq:
     host: wx.myzf.xyz
