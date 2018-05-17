@@ -3,3 +3,8 @@ spring:
     test
   rabbitmq:
     host: wx.myzf.xyz
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
